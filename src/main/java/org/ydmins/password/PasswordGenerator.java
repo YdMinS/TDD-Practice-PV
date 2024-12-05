@@ -1,4 +1,4 @@
-package org.ydmins;
+package org.ydmins.password;
 
 @FunctionalInterface
 public interface PasswordGenerator{

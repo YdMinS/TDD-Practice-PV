@@ -1,8 +1,9 @@
-package org.ydmins;
+package org.ydmins.passsowrd;
 
 import static org.assertj.core.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.ydmins.password.User;
 
 class UserTest {
 

@@ -1,4 +1,4 @@
-package org.ydmins;
+package org.ydmins.password;
 
 public class User {
     private String password;
