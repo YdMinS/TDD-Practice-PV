@@ -1,4 +1,4 @@
-package org.ydmins.calculator;
+package org.ydmins.calculator.calculate;
 
 public interface NewArithmeticOperator {
     boolean supports(String operator);

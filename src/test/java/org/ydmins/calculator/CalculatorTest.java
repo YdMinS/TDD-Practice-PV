@@ -13,7 +13,7 @@ public class CalculatorTest {
     @DisplayName("덧센 연산을 수행한다.")
     @ParameterizedTest
     @MethodSource("formulaAndResult")
-    void additionTest(int operand1, String operator, int operand2, int result){
+    void calculatorTest(int operand1, String operator, int operand2, int result){
         int calculatedResult = Calculator.calculate(operand1, operator, operand2);
         Assertions.assertThat(calculatedResult).isEqualTo(result);
     }
